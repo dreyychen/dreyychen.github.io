@@ -1,6 +1,6 @@
 * {
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     transition: all .15s;
 }
 .text-justify{
@@ -47,7 +47,6 @@
 }
 .btn-reverse-danger {
     color: #dc3545;
-    background: white;
     border: 1px solid #dc3545;
 }
 .btn-reverse-danger:hover {
